@@ -38,7 +38,7 @@ public class Steps extends Metodos {
 		metodos.esperarClicavel(el.getBtnCheckout1(), "esperar elemento ser clicavel");
 		System.out.println(el.getBtnCheckout1());
 		metodos.clicarText("Proceed to checkout", "Clicando no checkout");
-		// metodos.clicar(el.getBtnCheckout1(), "clicar botão checkout");
+		
 	}
 
 	@Quando("^Realizar todos os passos para completar a transacao$")
