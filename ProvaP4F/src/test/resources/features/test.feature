@@ -20,4 +20,4 @@ Funcionalidade: Realizar compra
     E Adicionar no carrinho
     E Confirmar detalhes da compra
     Mas informar login invalido
-    Entao compra não será realizada
+    Entao compra nao sera realizada
