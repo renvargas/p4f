@@ -11,7 +11,7 @@ Funcionalidade: Realizar compra
     E Adicionar no carrinho
     E Confirmar detalhes da compra
     E Realizar todos os passos para completar a transacao
-    Entao compra é realizada com sucesso
+    Entao compra realizada com sucesso
 
   @negativo
   Cenario: CT02 - Compra com login invalido
