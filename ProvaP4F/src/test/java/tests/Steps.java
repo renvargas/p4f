@@ -55,8 +55,8 @@ public class Steps extends Metodos {
 		metodos.clicar(el.getBtnConfirm(), "");
 	}
 
-	@Entao("^compra é realizada com sucesso$")
-	public void compraÉRealizadaComSucesso() throws Throwable {
+	@Entao("^compra realizada com sucesso$")
+	public void compraRealizadaComSucesso() throws Throwable {
 		metodos.validarPagina("Order confirmation - My Store", "validando página de confirmação");
 		metodos.validarTexto(el.getMsgConfirm(), "Your order on My Store is complete.", "validar msg de confirmação");
 		metodos.screnShoot("CT01 - Realizar compra de produtos");
@@ -70,8 +70,8 @@ public class Steps extends Metodos {
 		metodos.clicar(el.getSubmit(), "confirmar login");
 	}
 
-	@Entao("^compra não será realizada$")
-	public void compraNãoSeráRealizada() throws Throwable {
+	@Entao("^compra nao sera realizada$")
+	public void compraNaoSeraRealizada() throws Throwable {
 		metodos.validarTexto(el.getMsgFalhaAut(), "Authentication failed.",
 				"validando falha ao usar dados invalidados na autenticação");
 		metodos.screnShoot("CT02 - Compra com login invalido");
